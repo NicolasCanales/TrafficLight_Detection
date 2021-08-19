@@ -21,4 +21,39 @@ Mediante geopy, logra transformar latitudes y longitudes en direcciones físicas
 Mediante Espeak, logra transformar texto en audio, pudiendo variar la voz, velocidad, tono, etc.
 
 ## Librerías Necesarias
-~sudo apt install python3-opencv~
+Antes que nada es necesario actualizar el sistema a la última versión
+~~~
+sudo apt-get update
+sudo apt-get upgrade
+~~~
+
+*CV2
+~~~
+sudo apt install python3-opencv
+~~~
+
+*Pynmea2
+~~~
+pip3 install pynmea2
+~~~
+Aqui tambien es necesario hacer unos ajustes en la interfaz de la raspberry.
+- Para ello se debe escribir el comando
+~~~
+sudo raspi-config
+~~~
+- Ir a "Interfacing options"
+- Serial
+- No
+- Yes
+- Luego reiniciar la raspberry.
+
+*Espeak
+~~~
+sudo apt-get install espeak
+sudo apt-get install espeak python-espeak
+~~~
+
+*Geopy
+~~~
+pip3 install geopy
+~~~
