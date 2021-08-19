@@ -37,15 +37,17 @@ sudo apt install python3-opencv
 pip3 install pynmea2
 ~~~
 Aqui tambien es necesario hacer unos ajustes en la interfaz de la raspberry.
-- Para ello se debe escribir el comando
+
+1. Para ello se debe escribir el comando
 ~~~
 sudo raspi-config
 ~~~
-- Ir a "Interfacing options"
-- Serial
-- No
-- Yes
-- Luego reiniciar la raspberry.
+
+2. Ir a "Interfacing options"
+3. Serial
+4. No
+5. Yes
+6. Luego reiniciar la raspberry.
 
 * Espeak
 ~~~
