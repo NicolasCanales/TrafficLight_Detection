@@ -1,0 +1,2 @@
+# TrafficLight_Detection
+Trabajo de apoyo para tesis, consiste en crear un prototipo de un bastón inteligente que ayude a las personas no videntes en su día a día, siendo capas de reconocer el estado de un semáforo y avisarle mediante audio al usuario, de la misma forma que hace uso de un gps, para poder indicarle, también mediante audio, en que calle se encuentra. Cabe destacar que esta solo es la fase de prototipado y que los códigos presentados podrían variar en el futuro.
