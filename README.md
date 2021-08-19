@@ -27,12 +27,12 @@ sudo apt-get update
 sudo apt-get upgrade
 ~~~
 
-*CV2
+* CV2
 ~~~
 sudo apt install python3-opencv
 ~~~
 
-*Pynmea2
+* Pynmea2
 ~~~
 pip3 install pynmea2
 ~~~
@@ -47,13 +47,13 @@ sudo raspi-config
 - Yes
 - Luego reiniciar la raspberry.
 
-*Espeak
+* Espeak
 ~~~
 sudo apt-get install espeak
 sudo apt-get install espeak python-espeak
 ~~~
 
-*Geopy
+* Geopy
 ~~~
 pip3 install geopy
 ~~~
